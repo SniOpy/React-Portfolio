@@ -1,106 +1,137 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  imagebaseurl: 'https://www.linkedin.com/in/soufiane-ibnaiche/',
+  name: 'Soufiane IBNAÏCHE',
+  role: 'FullStack Developer specialized in NodeJs & React',
+  linkedinId: 'https://www.linkedin.com/in/soufiane-ibnaiche/',
+  skypeid: '',
+  roleDescription:
+    ' I take interest in the entire development process, from front-end to performance optimization. I enjoy exploring new technologies, continuously improving my skills, and contributing to meaningful, high-impact projects.',
+  socialLinks: [
+    {
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/soufiane-ibnaiche/',
+      className: 'fa fa-linkedin',
+    },
+    {
+      name: 'github',
+      url: 'https://github.com/SniOpy',
+      className: 'fa fa-github',
+    },
+    ,
+  ],
+  aboutme:
+    "I'm currently looking for a role or a work-study opportunity as a NodeJs & React developer, where I can deepen my knowledge, sharpen my skills, and contribute to meaningful, high-impact projects.",
+  address: 'France',
+  website: 'contact@madapes.fr',
+  education: [
+    {
+      UniversityName: 'Vi Dev',
+      specialization: 'REACT EN ENTREPRISE',
+      MonthOfPassing: 'Nov',
+      YearOfPassing: '2024',
+      Achievements:
+        'During the "React in the Workplace" training, I deepened my knowledge of React by learning how to structure scalable projects, build reusable components, and manage application state using Redux Toolkit. I also worked with React Router v6, Styled-components, and applied best practices such as Clean Code and the Single Responsibility Principle (SRP). The project was based on a Figma mockup divided into 15 tickets, following Agile methodology, using the GitHub Flow workflow, and simulating teamwork in a professional environment.',
+    },
+    {
+      UniversityName: "O'Clock",
+      specialization:
+        'Obtained the Level 5 Professional Title in Web and Mobile Application Development (bac +2).',
+      MonthOfPassing: 'Dec',
+      YearOfPassing: '2023',
+      Achievements:
+        'During my training, delivered entirely remotely in a live online format, I mastered the essential languages and tools of web development, including HTML, CSS, JavaScript, Node.js, Git, and GitHub. I acquired skills in both front-end and back-end development, database management, web security, and web application deployment. The program also included hands-on projects that allowed me to strengthen both my technical and professional skills.',
+    },
+    {
+      UniversityName: 'OpenClassrooms',
+      specialization: 'Obtained several certifications in the field of programming.',
+      MonthOfPassing: 'Jul',
+      YearOfPassing: '2016',
+      Achievements:
+        'During my training, delivered entirely remotely in a live online format, I mastered the essential languages and tools of web development, including HTML, CSS, JavaScript, Node.js, Git, and GitHub. I acquired skills in both front-end and back-end development, database management, web security, and web application deployment. The program also included hands-on projects that allowed me to strengthen both my technical and professional skills.',
+    },
+    ,
+  ],
+  work: [
+    {
+      CompanyName: 'Crazee Burger ',
+      specialization: 'React, React Router Dom, Styled-components, Firebase/Firestore ',
+      MonthOfLeaving: 'October',
+      YearOfLeaving: '2024',
+      Achievements:
+        'React.js, React Router v6, Styled-components, Figma, Design system creation, reusable components, responsive design. Agile methodology, GitHub Flow. Adherence to Clean Code principles and the Single Responsibility Principle (SRP).',
+    },
+    {
+      CompanyName: "O'Dog Next Door",
+      specialization: 'NodeJS, Express, PostgreSQL & Redux Toolkit',
+      MonthOfLeaving: 'Nov',
+      YearOfLeaving: '2023',
+      Achievements:
+        'Pet-sitting matchmaking application built with NodeJS, ExpressJS, Redux Toolkit, and PostgreSQL. Implemented JWT authentication, external API calls (API Adresse), and unit testing with Chai. Coordinated front-end/back-end development and sprint planning as Scrum Master (Agile methodology). Integrated an interactive map using Leaflet.js to display petsitter locations (GIS).',
+    },
+
+    {
+      CompanyName: "O'Fig",
+      specialization: 'HTML5 CSS3 SASS',
+      MonthOfLeaving: 'Aug',
+      YearOfLeaving: '2023',
+      Achievements:
+        'Development of an e-commerce website for Final Fantasy VII figurines using HTML5, Flexbox, and CSS3.',
+    },
+  ],
+  skillsDescription: 'My skills',
+  skills: [
+    {
+      skillname: 'NodeJS',
+    },
+    {
+      skillname: 'ReactJS',
+    },
+    {
+      skillname: 'TypeScript',
+    },
+    {
+      skillname: 'PostgreSQL',
+    },
+    {
+      skillname: 'IA Prompting',
+    },
+  ],
+  portfolio: [
+    {
+      name: 'Crazee Burger',
+      description: 'Developed a web application for a restaurant chain called Crazee Burger.',
+      imgurl: '/images/portfolio/crazee-burger.png',
+      alt: 'Crazee-burger',
+    },
+    {
+      name: "O'Dog next door",
+      description: 'mobileapp',
+      imgurl: '/images/portfolio/o-dog.png',
+      alt: '',
+    },
+    {
+      name: 'project3',
+      description: 'mobileapp',
+      imgurl: '/images/portfolio/project2.png',
+      alt: '',
+    },
+    {
+      name: 'project3',
+      description: 'mobileapp',
+      imgurl: '/images/portfolio/project2.png',
+      alt: '',
+    },
+  ],
+  testimonials: [
+    {
+      description: 'This is a sample testimonial',
+      name: 'Some technical guy',
+    },
+    {
+      description: 'This is a sample testimonial',
+      name: 'Some technical guy',
+    },
+  ],
+};
+
+export default resumeData;
