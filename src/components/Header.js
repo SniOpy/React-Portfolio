@@ -66,7 +66,7 @@ export default class Header extends Component {
                   })}
               </ul>
 
-              <a href="./src/assets/cv.pdf" download>
+              <a href="/cv.pdf" download>
                 <button>Télécharge mon CV</button>
               </a>
             </div>
