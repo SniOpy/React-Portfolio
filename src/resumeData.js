@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: 'https://www.linkedin.com/in/soufiane-ibnaiche/',
   name: 'Soufiane IBNAÏCHE',
   role: 'FullStack Developer specialized in NodeJs & React',
-  linkedinId: 'https://www.linkedin.com/in/soufiane-ibnaiche/',
+  linkedinId: 'soufiane-ibnaiche',
   skypeid: '',
   roleDescription:
     ' I take interest in the entire development process, from front-end to performance optimization. I enjoy exploring new technologies, continuously improving my skills, and contributing to meaningful, high-impact projects.',
@@ -22,7 +22,7 @@ let resumeData = {
   aboutme:
     "I'm currently looking for a role or a work-study opportunity as a NodeJs & React developer, where I can deepen my knowledge, sharpen my skills, and contribute to meaningful, high-impact projects.",
   address: 'France',
-  website: 'contact@madapes.fr',
+  website: 'soufianeibna@gmail.com ',
   education: [
     {
       UniversityName: 'Vi Dev',
@@ -47,7 +47,7 @@ let resumeData = {
       MonthOfPassing: 'Jul',
       YearOfPassing: '2016',
       Achievements:
-        'During my training, delivered entirely remotely in a live online format, I mastered the essential languages and tools of web development, including HTML, CSS, JavaScript, Node.js, Git, and GitHub. I acquired skills in both front-end and back-end development, database management, web security, and web application deployment. The program also included hands-on projects that allowed me to strengthen both my technical and professional skills.',
+        'I completed several certifications including HTML5 and CSS3, JavaScript, Bootstrap 3, PHP & MySQL, and MVC architecture, and developed multiple websites based on Photoshop mockups.',
     },
     ,
   ],
@@ -68,7 +68,6 @@ let resumeData = {
       Achievements:
         'Pet-sitting matchmaking application built with NodeJS, ExpressJS, Redux Toolkit, and PostgreSQL. Implemented JWT authentication, external API calls (API Adresse), and unit testing with Chai. Coordinated front-end/back-end development and sprint planning as Scrum Master (Agile methodology). Integrated an interactive map using Leaflet.js to display petsitter locations (GIS).',
     },
-
     {
       CompanyName: "O'Fig",
       specialization: 'HTML5 CSS3 SASS',
@@ -77,23 +76,31 @@ let resumeData = {
       Achievements:
         'Development of an e-commerce website for Final Fantasy VII figurines using HTML5, Flexbox, and CSS3.',
     },
+    {
+      CompanyName: "O'Clock Blog",
+      specialization: 'NodeJS Express Routage',
+      MonthOfLeaving: 'May',
+      YearOfLeaving: '2023',
+      Achievements:
+        'Development of an e-commerce website for Final Fantasy VII figurines using HTML5, Flexbox, and CSS3.',
+    },
   ],
   skillsDescription: 'My skills',
   skills: [
     {
-      skillname: 'NodeJS',
+      skillname: 'Node JS / PHP / POO',
     },
     {
-      skillname: 'ReactJS',
+      skillname: 'React JS & Styled-components',
     },
     {
       skillname: 'TypeScript',
     },
     {
-      skillname: 'PostgreSQL',
+      skillname: 'PostgreSQL/ MySQL / MongoDB / Firebase ',
     },
     {
-      skillname: 'IA Prompting',
+      skillname: 'IA Prompting & API IA',
     },
   ],
   portfolio: [
@@ -105,31 +112,41 @@ let resumeData = {
     },
     {
       name: "O'Dog next door",
-      description: 'mobileapp',
+      description:
+        'Built a full-stack web app with Node.js and Redux Toolkit to connect pet sitters via geolocation, using Adresse API and Leaflet for interactive maps.',
       imgurl: '/images/portfolio/o-dog.png',
-      alt: '',
+      alt: "O'Dog-next-door",
     },
     {
-      name: 'project3',
-      description: 'mobileapp',
-      imgurl: '/images/portfolio/project2.png',
-      alt: '',
+      name: 'Final Fantasy VII',
+      description:
+        'Development of an e-commerce website selling figurines from the famous game Final Fantasy VII.',
+      imgurl: '/images/portfolio/FF7.png',
+      alt: 'Final-Fantasy-VII',
     },
     {
-      name: 'project3',
-      description: 'mobileapp',
-      imgurl: '/images/portfolio/project2.png',
+      name: "O'Clock Blog",
+      description:
+        "Developed a news blog about O'Clock School using Node.js, Express, and a database, featuring static routing and dynamic views.",
+      imgurl: '/images/portfolio/oBlog.png',
       alt: '',
     },
   ],
   testimonials: [
     {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy',
+      description:
+        "Travailler avec Soufiane sur ce projet a été un vrai plaisir. Il maîtrise parfaitement la stack JavaScript (React & Node.js) et n'hésite jamais à aider l’équipe quand il le faut. Son code est propre, bien documenté, et il propose toujours des solutions pertinentes lors des réunions techniques.",
+      name: 'V. Leo',
     },
     {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy',
+      description:
+        'Toujours ponctuel dans ses livrables, il a su s’adapter rapidement aux besoins du client tout en respectant les contraintes techniques. Son autonomie et sa communication fluide ont été un vrai plus dans l’avancement du projet.',
+      name: 'Y. Ilies',
+    },
+    {
+      description:
+        'J’ai beaucoup apprécié collaborer avec Soufiane. Il a su transformer les maquettes Figma en interfaces fonctionnelles tout en respectant l’UX. Il est également très réceptif aux retours et force de proposition pour améliorer l’expérience utilisateur.',
+      name: 'T. David',
     },
   ],
 };
