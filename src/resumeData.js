@@ -53,6 +53,14 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: 'ecoTrend',
+      specialization: 'React, React Router Dom, Styled-components, NodeJS, PostgreSQL, Railway ',
+      MonthOfLeaving: 'April',
+      YearOfLeaving: '2025',
+      Achievements:
+        'React.js, React Router v6, Styled-components, Figma, Design system creation, reusable components, responsive design. Agile methodology, GitHub Flow. Adherence to Clean Code principles and the Single Responsibility Principle (SRP).',
+    },
+    {
       CompanyName: 'Crazee Burger ',
       specialization: 'React, React Router Dom, Styled-components, Firebase/Firestore ',
       MonthOfLeaving: 'October',
@@ -61,7 +69,15 @@ let resumeData = {
         'React.js, React Router v6, Styled-components, Figma, Design system creation, reusable components, responsive design. Agile methodology, GitHub Flow. Adherence to Clean Code principles and the Single Responsibility Principle (SRP).',
     },
     {
-      CompanyName: "O'Dog Next Door",
+      CompanyName: 'Fetcher Dashboard',
+      specialization: 'React, React Router Dom, Bootstrap',
+      MonthOfLeaving: 'September',
+      YearOfLeaving: '2024',
+      Achievements:
+        'Create a small React component that fetches data from a public API, displays it in a list with strict typing, and allows filtering.',
+    },
+    {
+      CompanyName: 'Dog Next Door',
       specialization: 'NodeJS, Express, PostgreSQL & Redux Toolkit',
       MonthOfLeaving: 'Nov',
       YearOfLeaving: '2023',
@@ -72,14 +88,6 @@ let resumeData = {
       CompanyName: "O'Fig",
       specialization: 'HTML5 CSS3 SASS',
       MonthOfLeaving: 'Aug',
-      YearOfLeaving: '2023',
-      Achievements:
-        'Development of an e-commerce website for Final Fantasy VII figurines using HTML5, Flexbox, and CSS3.',
-    },
-    {
-      CompanyName: "O'Clock Blog",
-      specialization: 'NodeJS Express Routage',
-      MonthOfLeaving: 'May',
       YearOfLeaving: '2023',
       Achievements:
         'Development of an e-commerce website for Final Fantasy VII figurines using HTML5, Flexbox, and CSS3.',
@@ -105,10 +113,24 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: 'ecoTrend',
+      description:
+        'I am currently working on EcoTrend, an e-commerce platform dedicated to selling eco-friendly clothing and accessories.',
+      imgurl: '/images/portfolio/catalogue.png',
+      alt: 'ECOTREND',
+    },
+    {
       name: 'Crazee Burger',
       description: 'Developed a web application for a restaurant chain called Crazee Burger.',
       imgurl: '/images/portfolio/crazee-burger.png',
       alt: 'Crazee-burger',
+    },
+    {
+      name: 'Fetcher Dashboard',
+      description:
+        'Create a small React component that fetches data from a public API, displays it in a list with strict typing, and allows filtering.',
+      imgurl: '/images/portfolio/fetcher.jpg',
+      alt: 'fetcher Dashboard',
     },
     {
       name: "O'Dog next door",
